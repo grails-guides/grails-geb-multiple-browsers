@@ -3,5 +3,5 @@ to https://sites.google.com/a/chromium.org/chromedriver/downloads[download the a
 
 [source, bash]
 ----
-/gradlew -Dgeb.env=chrome -Dwebdriver.chrome.driver=/Users/sdelamo/Applications/chromedriver integrationTest
+./gradlew -Dgeb.env=chrome -Dwebdriver.chrome.driver=/Users/sdelamo/Applications/chromedriver integrationTest
 ----
