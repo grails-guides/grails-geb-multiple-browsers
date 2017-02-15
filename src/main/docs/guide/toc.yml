@@ -12,4 +12,5 @@ runningTheApp:
   runChrome: Run Tests with Chrome
   runHtmlUnit: Run Tests with HtmlUnit
   runPhantomJs: Run Tests with PhantomJs
-
+helpWithGrails:
+  title: Do you need help with Grails?  
