@@ -11,7 +11,7 @@ We need to add the different browser dependencies
 [source,groovy]
 ./build.gradle
 ----
-include::{sourceDir}/build.gradle[indent=0,lines=56..60]
+include::{sourceDir}/build.gradle[indent=0,tag=gebDependencies]
 ----
 
 We are going to change the Geb environment passing a system property.
@@ -21,5 +21,5 @@ Because of that, we pass system properties to integration tests:
 [source,groovy]
 ./build.gradle
 ----
-include::{sourceDir}/build.gradle[indent=0,lines=73..75]
+include::{sourceDir}/build.gradle[indent=0,tag=systemProperties]
 ----
