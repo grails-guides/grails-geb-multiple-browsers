@@ -19,6 +19,7 @@ apply plugin:"war"
 apply plugin:"org.grails.grails-web"
 apply plugin:"org.grails.grails-gsp"
 apply plugin:"asset-pipeline"
+apply plugin: 'codenarc'
 
 repositories {
     mavenLocal()
@@ -60,7 +61,6 @@ bootRun {
     addResources = true    
 }
 
-
 assets {
     minifyJs = true
     minifyCss = true
@@ -71,3 +71,9 @@ integrationTest {
     systemProperties System.properties
 }
 // end::systemProperties[]
+
+codenarc {
+    toolVersion = '0.27.0'
+    configFile = file("${project.projectDir}/config/codenarc/rules.groovy")
+    reportFormat = 'html'
+}
