@@ -1,9 +1,9 @@
 We handle http://www.gebish.org/manual/current/#configuration[Geb Configuration] with a GebConfig.groovy file
 
 [source,groovy]
-./src/integration-test/groovy/GebConfig.groovy
+./src/integration-test/resources/GebConfig.groovy
 ----
-include::{sourceDir}/src/integration-test/groovy/GebConfig.groovy[indent=0]
+include::{sourceDir}/src/integration-test/resources/GebConfig.groovy[indent=0]
 ----
 
 We need to add the different browser dependencies
