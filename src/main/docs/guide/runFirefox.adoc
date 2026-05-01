@@ -1,4 +1,0 @@
-[source, bash]
-----
-./gradlew -Dgeb.env=firefox integrationTest
-----
